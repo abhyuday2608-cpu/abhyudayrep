@@ -1,0 +1,151 @@
+
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden; /* Stops horizontal scrollbars */
+  margin: 0;
+  top:0;
+  padding: 0;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.vertical-screen {
+      /* Full screen dimensions */
+      width: 100%;
+      height: 100dvh; 
+      color: rgb(14, 12, 12);
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height :3000px ;
+       margin-left:0px;   
+    }
+.main-menu{
+
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top:5px;
+    padding : 5px;
+    height : 20px;
+    padding-left: 120px;
+    
+    z-index: 100;
+}
+.white-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 39px; /* Adjust height as needed */
+  background-color:white; /* Must be solid white */
+  z-index: 10; /* Higher than the content layer */
+}
+#group-right,#group-left{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    
+}#logins{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-left: 50px;    
+}
+
+#logo{
+    display: flex;
+    margin-right: 20px;
+    height: 25px;
+
+    
+}#log{
+    display: flex;
+    height: 25px;
+}
+#www{
+    display: flex;
+    height: 30px;
+}
+#search{
+    display: flex;
+    height: 23px;
+}
+#group-right{
+  margin-left: 450px;
+  padding-right:0px;
+  gap: 25px;
+}
+#line{
+    position: fixed;
+    top: 30px; /* Position it below your navbar height */
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 0.1px;
+    background-color: #4d4b4b;
+   
+   
+}
+#cyb{
+    margin-top: 30px;
+    padding-top: 100px;
+    left :0;
+    position: relative;
+    font-size: 25px;
+      z-index: 1; 
+   
+   
+}
+
+#sec{
+    position: relative;
+    padding-top: 12px;
+   /* Position it below your navbar height */
+   left:0;
+    font-size: 50px;
+   
+   
+}
+#btn{
+    position: relative;
+    padding-top: 15px;
+    height:60px; /* Position it below your navbar height */
+}
+#lrn{
+    font-size: 20px;
+    font-weight: 600;
+    padding:10px;
+    background-color: #76b900;  
+    border: none;
+}#str{
+    position: relative;
+    padding-top: 20px; /* Position it below your navbar height */
+    font-size: 23px;
+    left:0;
+     padding-bottom:0px; 
+     line-height: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+  
+   
+   
+}
+#companies{
+    position: relative;
+}
+#content{
+    position: relative;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+#img{
+    height:245px;
+}
+#lrn:hover{
+    background-color: #9bd732;
+}
